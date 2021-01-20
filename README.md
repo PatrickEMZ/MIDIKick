@@ -6,5 +6,5 @@ Especially the my bass drum. Having a Roland kick trigger pedal KT-10 and aan El
 And I find it fun to do during this lockdown / curfew time!
 
 The simple architecture is represented in the following image
-![Architecture MidiKick](../../images/Architecture.png)
+![Architecture MidiKick](/images/Architecture.png)
 
