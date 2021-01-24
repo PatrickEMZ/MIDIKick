@@ -8,6 +8,9 @@ And I find it fun to do during this lockdown / curfew time!
 The simple architecture is represented in the following image
 ![Architecture MidiKick](/images/Architecture.png)
 
+Here is the simple schematics associated with this project:
+![Schematics MidiKick](/design/MidiKickFritzin.png)
+
 The LowPass filter and level limiter are very simple, and values have been chose by measuring the effects. A digital LPF would have been better, but I have limited time to do this and have zero experience on Arduino. I suspect real time issues, so you are welcome to try this!
 
 The core algortithm is quite straightforward:
