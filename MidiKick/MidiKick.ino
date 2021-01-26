@@ -30,10 +30,10 @@
 //
 
 
-#include <MemoryFree.h>
+// #include <MemoryFree.h>
 #include <math.h>
 #include <Wire.h>
-#include <Time.h>
+// #include <Time.h>
 #include <avr/wdt.h>
 
 // using this RGB library linked to the Grove 16X2 LCD I got from seedstudio wiki.seedstudio.com
@@ -70,7 +70,7 @@ BaseVisu *BaseVisu::activeItem = 0;
 #define pinButtonPlus 4
 
 // ts keeps track of time when Arduino boots
-unsigned long ts = millis();
+// unsigned long ts = millis();
 
 // line1 and line2 used as buffers for 2 lines of LCD
 char ligne1[17];
@@ -254,7 +254,7 @@ void setup() {
   pinMode(pinButtonPlus,INPUT_PULLUP);
   pinMode(pinButtonMinus,INPUT_PULLUP);
 
-  ts = millis();
+  // ts = millis();
   
   // WATCHDOG configuration
   // 8 seconds
