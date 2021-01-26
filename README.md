@@ -28,6 +28,26 @@ Additional features are:
 
 The UI is based on some GUI tools I had designed before. Probably not optimal, but it works!
 
+What you will need to build this:
+* Arduino Uno (could probably work with a smaller Arduino)
+* 1 female Jack 1/4 (6.3 mm)
+* 1 female DIN 5 (MIDI)
+* Resistors
+  * 1 x 1 Mohm
+  * 1 x 33 Kohm
+  * 1 x 10 Kohm
+  * 1 x 1Kohm
+* Capacitor
+  * 1 x 330 nF
+* Diodes
+  * 1 x Zener 4.7 V
+* 1 LCD Display 16 x 2
+* 3 x push buttons , 1 contact
+* wires to connect all components
+* 1 x USB power supply for Arduino
+* 1 x MIDI cable
+* 1 x male male 1/4 cable for kick drum connection
+
 This design can certainly be enhanced, especially if you would like to adapt it to other piezos. There are mutiple examples you can get inspiration from, you are welcome to do this.
 
 Licence: the code, all graphics and documents are under "Attribution 4.0 International (CC BY 4.0)" licence [licence](https://creativecommons.org/licenses/by/4.0/legalcode)
