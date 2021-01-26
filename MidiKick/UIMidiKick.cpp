@@ -11,8 +11,8 @@
 //     No additional restrictions Å\ You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 //
 
-#include <MemoryFree.h>
-#include <TimeLib.h>
+// #include <MemoryFree.h>
+// #include <TimeLib.h>
 #include <avr/wdt.h>
 #include "Memory.h"
 #include "UIMidiKick.h"
